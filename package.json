@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run --coverage"
-    "e2e": "playwright test"
+    "test": "vitest run --coverage",
+    "e2e": "playwright test",
     "lint": "eslint 'src/**/*.ts'",
     "format": "prettier --write 'src/**/*.ts'"
   },
