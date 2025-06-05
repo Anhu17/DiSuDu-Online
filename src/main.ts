@@ -1,4 +1,4 @@
-import Phaser from 'phaser'
+import Phaser from 'phaser';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -9,8 +9,9 @@ const config: Phaser.Types.Core.GameConfig = {
   scene: {
     preload: () => {},
     create: () => {},
-    update: () => {}
-  }
-}
+    update: () => {},
+  },
+};
 
-new Phaser.Game(config)
+const game = new Phaser.Game(config);
+export default game;
